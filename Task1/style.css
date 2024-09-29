@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(0, 223, 252);
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+div{
+    padding: 10px;
+}
+
+.size{
+    height: 40px;
+    width: 30%;
+}
+.c1{
+    background-color: yellow;
+    height: 40px;
+    width: 10%;
+}
+
+.size2{
+    height: 70px;
+    width: 30%;
+}
+
+p{
+    color: white;
+    line-height: 0;
+}
+
+.c2{
+    color: yellow;
+}
+
+.c3{
+    font-size: 28px;
+}
+
+ul{
+    padding-top: 20px;
+    color: white;
+}
