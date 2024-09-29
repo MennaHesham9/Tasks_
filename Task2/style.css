@@ -1,0 +1,21 @@
+.orange-line{
+    background-color: orange;
+    height: 3px;
+    border: none;
+}
+
+.text-color{
+    color: orange;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.top{
+    margin-block-start: 0;
+}
+
+.small{
+    border-spacing: 0;
+    font-size: small;
+    padding: 0;
+}
