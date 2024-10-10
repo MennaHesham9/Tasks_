@@ -1,45 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: rgb(0, 223, 252);
+    background-color: #11cfcf;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
     text-align: center;
-    color: white;
+    font-weight: 800;
+    font-size: 2.4rem;
+    margin: 2%;
 }
 
-div{
-    padding: 10px;
+section{
+    display: flex;
+    width: 100%;
 }
 
-.size{
-    height: 40px;
-    width: 30%;
+.form{
+    width:45%;
+    margin: 0 4%;
 }
-.c1{
+
+input{
+    font-size: 1rem;
+    padding: 3% 50% 3% 2%;
+    margin: 1.5% 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.company-phone{
+    margin-right: 2%;
+    padding-right: 8.6%;
+}
+
+.message{
+    padding-bottom: 10%;
+}
+
+.btn{
     background-color: yellow;
-    height: 40px;
-    width: 10%;
+    padding: 2.3%;
+    border: 3px solid rgb(255, 255, 103);
+    margin: 0 56.5%;
 }
 
-.size2{
-    height: 70px;
-    width: 30%;
+.contact{
+    margin: auto;
 }
 
-p{
-    color: white;
-    line-height: 0;
+h2{
+    font-weight: 300;
+    padding-bottom: 2%;
+    font-size: 2rem;
+    font-weight: 100;
 }
 
-.c2{
+.yellow{
     color: yellow;
-}
-
-.c3{
-    font-size: 28px;
-}
-
-ul{
-    padding-top: 20px;
-    color: white;
+    padding-bottom: 4%;
 }
