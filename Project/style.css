@@ -1,0 +1,29 @@
+.light-color { color: white; }
+.primary-bg-color { background-color: #0c65ed; }
+.open-sans { font-family: "Open Sans", sans-serif; }
+.josefin-sans { font-family: "Josefin Sans", sans-serif; }
+.font-size-09 { font-size: 0.9rem; }
+.font-size-12 { font-size: 1.2rem; }
+.font-size-13 { font-size: 1.3rem; }
+.font-size-37 { font-size: 3.75rem; }
+.font-w-300 { font-weight: 300; }
+.font-w-600 { font-weight: 600; }
+
+* { font-family: "Open Sans", sans-serif; }
+
+
+.social-media{ border-right: 1px solid white; }
+
+.social-media a{ color: white;
+    font-size: 1.3rem; }
+
+.contact a{ color: white;
+    font-size: 1rem; }
+
+.contact .email{ border-right: 1px solid white; }
+
+#navbarSupportedContent a{ color: #1a1a1a!important; }
+
+#hero img{ height: 100vh; }
+
+.aboutmain { margin-top: 10%; }
