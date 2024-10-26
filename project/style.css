@@ -1,0 +1,89 @@
+.open-sans { font-family: "Open Sans", serif; }
+.josefin-sans { font-family: "Josefin Sans", serif; }
+.margin-buttom { margin-bottom: 7%; }
+.font-w-600 { font-weight: 600; }
+.font-w-700 { font-weight: 700; }
+.font-s-08{ font-size: 0.875rem; }
+.font-s-11{ font-size: 1.125rem; }
+.font-s-12 { font-size: 1.2rem; }
+.font-s-2 { font-size: 2rem; }
+.font-s-35 { font-size: 3.5rem; }
+
+.dropdown .dropdown-menu{ display: none; }
+.dropdown:hover > .dropdown-menu, .dropend:hover > .dropdown-menu { display: block;
+    margin-top: 0.125rem; }
+.dropend:hover > .dropdown-menu{ position: absolute;
+    top: 0;
+    right: 100%;
+    margin-left: 0.125rem; }
+.dropdown-menu { border-radius: 0!important;
+    border-top: 3px solid blue; }
+.dropdown-hover>.dropdown-toggle:active { pointer-events: none; }   
+.navbar .mega-menu { left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px; }
+.mega-menu .list-group .list-group-item:first-child { font-size: 1.2rem;
+    font-weight: 700; } 
+.mega-menu .col-md-6.col-lg-3 { border-right: 1px solid #ddd; }
+.list-group-item { border: none; }
+.nav-link{ color: black!important; }
+
+#hero img { height: 95vh; }
+.carousel { position: relative; }
+.indicators { position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column; }
+.indicator { width: 10px;
+    height: 10px;
+    margin: 10px 10px;
+    background-color: white;
+    cursor: pointer;
+    transition: opacity 0.3s, transform 0.3s; }
+.carousel-caption1 { position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%; }
+.carousel-caption1 p { width: 40%;
+    margin: 0 auto;
+    word-wrap: break-word;
+    text-align: center; }
+
+.get-start { padding: 1% 2.5%;
+    position: relative;
+    overflow: hidden; }
+.get-start:before, .get-start:after { content: " ";
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 150%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.2;
+    transform: rotate(45deg);
+    transition: all ease 1s; }
+.get-start:hover:before { left: 100%; }
+
+.styled-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; }
+.styled-heading::before, .styled-heading::after { content: "";
+    position: relative;
+    display: inline-block;
+    height: 4px;
+    width: 50px;
+    background-color: blue;
+    margin: 0 15px; }
+.styled-heading::before { border-top: 3px solid blue;
+    border-bottom: 1px solid blue; }
+.styled-heading::after { border-top: 1px solid blue;
+    border-bottom: 3px solid blue; }
