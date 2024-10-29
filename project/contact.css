@@ -1,0 +1,43 @@
+.open-sans { font-family: "Open Sans", serif; }
+.josefin-sans { font-family: "Josefin Sans", serif; }
+.margin-buttom { margin-bottom: 7%; }
+.margin-top { margin-top: 7%; }
+.w-20 { width: 25%; }
+.w-30 { width: 30%; }
+.w-75 { width: 75%; }
+.w-85 { width: 85%; }
+.font-w-600 { font-weight: 600; }
+.font-w-700 { font-weight: 700; }
+.font-s-08{ font-size: 0.875rem; }
+.font-s-11{ font-size: 1.125rem; }
+.font-s-12 { font-size: 1.2rem; }
+.font-s-18 { font-size: 1.8rem; }
+.font-s-2 { font-size: 2rem; }
+.font-s-22 { font-size: 2.2rem; }
+.font-s-25 { font-size: 2.5rem; }
+.font-s-3 { font-size: 3rem; }
+.font-s-35 { font-size: 3.5rem; }
+.mx-auto1{ margin: 0 auto; }
+
+.dropdown .dropdown-menu{ display: none; }
+.dropdown:hover > .dropdown-menu, .dropend:hover > .dropdown-menu { display: block; margin-top: 0.125rem; }
+.dropend:hover > .dropdown-menu{ position: absolute; top: 0; right: 100%; margin-left: 0.125rem; }
+.dropdown-menu { border-radius: 0!important; border-top: 3px solid #007bff; }
+.dropdown-hover>.dropdown-toggle:active { pointer-events: none; }   
+.navbar .mega-menu { left: 0; right: 0; margin: 0 auto; width: 90%; max-width: 1200px; }
+.mega-menu .list-group .list-group-item:first-child { font-size: 1.2rem; font-weight: 700; } 
+.mega-menu .col-md-6.col-lg-3 { border-right: 1px solid #ddd; }
+.list-group-item { border: none; }
+.nav-link{ color: black!important; }
+
+.hero-section { position: relative; }
+.hero-section img { width: 100%; height: auto; }
+.hero-section .overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+.hero-section h2 { font-size: 3rem; font-weight: 700; color: #fff; margin-bottom: 10px; }
+.hero-section .breadcrumb { background-color: transparent; padding: 0; margin: 0; }
+.hero-section .breadcrumb-item a { color: #fff; text-decoration: none; margin-top: 10%;}
+.hero-section .breadcrumb-item.active { color: #ddd; }
+
+.popular-tags { display: flex; flex-wrap: wrap; gap: 10px; }
+.tag { background-color: #f1f1f1; color: #333; padding: 5px 15px; border-radius: 20px; font-size: 0.9rem; text-align: center; transition: background-color 0.3s ease; }
+.tag:hover { background-color: #007bff; color: white; cursor: pointer; }
